@@ -20,6 +20,7 @@ Song Search Engine using ElasticSearch and Python for IR Project(CS4642)
 * data - Folder contains both scraped data and translatd data with python code used for translation
 * templates - Folder contains Html user interface of the search engine
 * documents - Folder contains project proposal & project report
+* images - Folder contains diagrams used in README.md
 * index_creation.py - Python code for index creating and data inserting
 * search_function.py - Python code use for process search query
 * advanced_queries.py - Elastic Search queries
@@ -53,7 +54,31 @@ based on the identified fields
 * Search Engine also support to the query phrases which is a mix of Sinhala and English languages.
 > eg : Clarence දිලීප පොඩි පුතූ
 
+Following figure shows the example search result of the UI.
+
+![Search Example of UI](./images/search_example.png)
+
 ## Project Architecture
+
+Following figure shows how the search engine works through the flask server.
+![Search Engine Architecture](./images/search_engine.png)
 
 ## Indexing & Query techniques
 
+###Indexing
+* 'ICU_Tokenizer’ which is a standard tokenizer and which has better support for Asian languages to tokenize text into the words. 
+* Elastic search ‘edge_ngram’ filter was used to generate n-grams. 
+###MultiSearch with Rule Base classification
+Rule-based text mining is used to understand and extract data from the user entered query
+string. 
+
+A basic set of rules are applied to each search phrase to identify the keywords, classify them into relevant search types. Acoording to the classification user query was classified to one of the following query type.
+    
+    1.Range query with Cross Fields
+    2.Faceted query with Cross Fields
+    3.Range query with phrase-prefix
+    4.Faceted query with phrase-prefix
+    
+Follwing diagram further shows the use of Rule Based Classification and Multisearch queries.
+
+![MultiSearch with Rule Base classification](./images/rule_based.png)
