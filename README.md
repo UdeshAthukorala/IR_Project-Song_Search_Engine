@@ -39,6 +39,18 @@ Song Search Engine using ElasticSearch and Python for IR Project(CS4642)
 11. english_genre - Song type in English
 
 ## Basic Functionalities
+* It supports searching by the title, artist
+name, writer name, composer name, or using the part of the lyrics.(Faceted Query)
+> eg : රිද්ම කුවේණියේ, Akuru Maki Nehe – අකුරු මැකී නෑ,  රන් ටිකිරි සිනා
+* Search Engine can identify ranges given in the search query and sort by view count(Range Queries)
+> eg : අමරදේව ගැයු හොඳම සින්දු 10
+* Search Engine can identify synonyms related to specific fields like ගයපු(artist), ලියපු(lyricist), සංගීත(music) and search
+based on the identified fields
+> eg : ගුණදාස කපුගේ ගයපු සින්දු, ලුෂන් බුලත්සිංහල ලියූ සින්දු, එච්.එම්. ජයවර්ධන සංගීතවත් කල ගී
+* Search Engine supports both Sinhala and English Language queries (Bilingual Support)
+> eg : songs sang by gunadhasa kapuge - ගුණදාස කපුගේ ගයපු සින්දු
+* Search Engine also support to the query phrases which is a mix of Sinhala and English languages.
+> eg : Clarence දිලීප පොඩි පුතූ
 
 ## Project Architecture
 
