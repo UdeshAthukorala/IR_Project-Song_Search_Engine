@@ -8,12 +8,12 @@ INDEX = 'song-index'
 sinhala_popularity=['හොඳම','ජනප්‍රිය','ප්‍රචලිත','ප්‍රසිද්ධ','හොදම','ජනප්‍රියම']
 english_popularity=['best','famous','top','most famous','toopest']
 
-synonym_lyrics = ['ගත්කරු','රචකයා','ලියන්නා','ලියන','රචිත','ලියපු','ලියව්‌ව','රචනා','රචක','ලියන්']
-synonym_eng_lyrics = ['lyricist','write','wrote','songwriter']
-synonym_artist = ['ගායකයා','ගයනවා','ගායනා','ගායනා','ගැයු','ගයන']
-synonym_eng_artist = ['sing', 'artist','singer','sung']
-synonym_music = ['සංගීත','සංගීතවත්']
-synonym_eng_music = ['composer','music','composed']
+synonym_artist = ['ගායකයා','ගයනවා','ගායනා','ගායනා','ගැයු','ගයන','ගයපු']
+synonym_eng_artist = ['sing', 'artist','singer','sung','sang']
+synonym_lyrics = ['ගත්කරු','රචකයා','ලියන්නා','ලියන','රචිත','ලියපු','ලියව්‌ව','රචනා','රචක','ලියන්','ලියූ']
+synonym_eng_lyrics = ['lyricist','write','wrote','writer','songwriter','written']
+synonym_music = ['සංගීත','සංගීතවත්','සංගීතය']
+synonym_eng_music = ['composer','music','composed','compose','musician']
 
 synonym_list = [ synonym_eng_artist, synonym_artist, synonym_eng_lyrics, synonym_lyrics, synonym_eng_music, synonym_music]
 
