@@ -83,4 +83,4 @@ A basic set of rules are applied to each search phrase to identify the keywords,
     
 Follwing diagram further shows the use of Rule Based Classification and Multisearch queries.
 
-![MultiSearch with Rule Base classification](./images/rule_based.png)
+![MultiSearch with Rule Base classification](./images/classification.png)
