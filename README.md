@@ -56,12 +56,12 @@ based on the identified fields
 
 Following figure shows the example search result of the UI.
 
-![Search Example of UI](./images/search_example.png)
+![Search Example of UI](./images/search_example.PNG)
 
 ## Project Architecture
 
 Following figure shows how the search engine works through the flask server.
-![Search Engine Architecture](./images/search_engine.png)
+![Search Engine Architecture](./images/architecture.png)
 
 ## Indexing & Query techniques
 
