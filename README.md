@@ -26,6 +26,7 @@ Song Search Engine using ElasticSearch and Python for IR Project(CS4642)
 * requirements.txt - python requirements 
 
 ## Details of Song Data
+translated_songs.json file contains 987 Sinhala Songs with the following data.
 1. title - Song title in both Sinhala and English languages
 2. song_lyrics - Song lyrics in Sinhala
 3. views - View count of the song
